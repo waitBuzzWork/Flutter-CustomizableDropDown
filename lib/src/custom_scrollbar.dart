@@ -157,7 +157,7 @@ class _CustomScrollbarState extends State<CustomScrollbar>
     if (_useCupertinoScrollbar!) {
       return CupertinoScrollbar(
         child: widget.child,
-        isAlwaysShown: widget.isAlwaysShown,
+        // isAlwaysShown: widget.isAlwaysShown,
         controller: widget.controller,
       );
     }
